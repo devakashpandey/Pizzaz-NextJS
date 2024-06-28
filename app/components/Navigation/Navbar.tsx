@@ -12,16 +12,10 @@ interface Props {
 const Navbar = ({ openNav }: Props) => {
   return (
     <>
-      <div className="h-[8vh] sm:h-[9vh] bg-white sticky top-0 z-10 shadow-md">
+      <div className="h-[8vh] sm:h-[9vh] bg-white sticky top-0 z-50 shadow-md">
         <div className="sm:w-[90%] w-[95%] mx-auto flex justify-between items-center h-[100%]">
           {/* logo section  */}
           <div className="flex items-center gap-1 cursor-pointer">
-            {/* <Image
-              src={logo}
-              alt="logo"
-              className="w-[1.2rem] h-[1.2rem] sm:w-[3rem] sm:h-[3rem]"
-            /> */}
-
             <GiFullPizza className="text-orange-500  w-[1.2rem] h-[1.2rem] sm:w-[2rem] sm:h-[2rem]" />
             <h1 className="text-[18px] sm:text-[25px] font-semibold">Pizzaz</h1>
           </div>

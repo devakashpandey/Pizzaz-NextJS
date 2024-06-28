@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .heading {
+    @apply text-[30px] md:text-[35px] lg:text-[45px] xl:text-[50px] uppercase font-bold text-gray-900 md:leading-[4rem]
+     leading-[3rem] text-center;
+  }
+}
+
+/* Carousel css  */
+.react-multiple-carousel__arrow {
+  z-index: 5 !important;
+}
+
+@media (max-width: 500px) {
+  .react-multiple-carousel__arrow {
+    display: none;
+  }
+}
