@@ -3,6 +3,7 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import PizzaCard from "./PizzaCard";
 
 const responsive = {
   desktop: {
@@ -27,20 +28,8 @@ const PopularPizza = () => {
           Our Popular <span className="text-red-500">Pizzaz</span>
         </h1>
 
-        <div className="w-[80%] mt-4 mx-auto">
-          <Carousel
-            additionalTransfrom={0}
-            arrows={true}
-            autoPlay={true}
-            autoPlaySpeed={4000}
-            centerMode={false}
-            infinite
-            responsive={responsive}
-            itemClass="item"
-            showDots={false}
-          >
-            <div></div>
-          </Carousel>
+        <div className="w-[80%] mt-4 mx-auto ">
+          <PizzaCard />
         </div>
       </div>
     </>

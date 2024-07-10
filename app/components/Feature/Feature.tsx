@@ -46,7 +46,7 @@ const Feature = () => {
                 <h2 className="mt-2 text-black font-semibold text-[2rem] text-center">
                   {item.title}
                 </h2>
-                <p className="mt-2 text-black text-opacity-65 text-center">
+                <p className="mt-2 text-black text-opacity-65 text-center  lg:text-[17px]">
                   {item.descrip}
                 </p>
               </div>
