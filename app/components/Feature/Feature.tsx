@@ -28,7 +28,7 @@ const Feature = () => {
 
   return (
     <>
-      <div className="pt-[3rem] pb-[3rem]">
+      <div className="pt-[4rem] pb-[3rem]">
         <h1 className="heading">
           Pizzaź made with <br /> love and{" "}
           <span className="text-red-500">care</span>

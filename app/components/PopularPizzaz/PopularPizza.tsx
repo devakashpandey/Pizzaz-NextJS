@@ -23,7 +23,7 @@ const responsive = {
 const PopularPizza = () => {
   return (
     <>
-      <div className="pt-6 pb-5 ">
+      <div className="pt-[4rem] pb-[4rem] ">
         <h1 className="heading">
           Our Popular <span className="text-red-500">Pizzaz</span>
         </h1>

@@ -3,6 +3,8 @@ import Hero from "./HeroSection/Hero";
 import Feature from "./Feature/Feature";
 import PopularPizza from "./PopularPizzaz/PopularPizza";
 import Delivery from "./Delivery/Delivery";
+import Team from "./Team/Team";
+import Subscribe from "./Subscribe/Subscribe";
 
 const Home = () => {
   return (
@@ -12,6 +14,8 @@ const Home = () => {
         <Feature />
         <PopularPizza />
         <Delivery />
+        <Team />
+        <Subscribe />
       </div>
     </>
   );
