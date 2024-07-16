@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "./HeroSection/Hero";
 import Feature from "./Feature/Feature";
 import PopularPizza from "./PopularPizzaz/PopularPizza";
+import Delivery from "./Delivery/Delivery";
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
         <Hero />
         <Feature />
         <PopularPizza />
+        <Delivery />
       </div>
     </>
   );
