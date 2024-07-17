@@ -36,7 +36,7 @@ const Feature = () => {
 
         <div className="w-[90%] md:w-[80%] mt-5 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-6 lg:gap-8">
           {feature_pizza.map((item, index) => (
-            <div>
+            <div key={index}>
               <div className="p-6 hover:bg-white rounded-lg transition-all duration-300 hover:-translate-y-2 mt-2">
                 <Image
                   src={item.img}

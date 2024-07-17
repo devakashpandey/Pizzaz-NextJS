@@ -18,7 +18,7 @@ const Footer = () => {
               </h1>
             </div>
             <p className="text-white text-opacity-55 mt-[0.4rem]">
-              Order Pizza Hut's veg and non-veg pizzas to get the best pizza
+              Order Pizza Huts veg and non-veg pizzas to get the best pizza
               deals. Check out the latest meal.
             </p>
             <p className="mt-2 text-white text-[18px]">

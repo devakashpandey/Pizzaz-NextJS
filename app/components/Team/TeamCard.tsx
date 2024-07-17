@@ -33,7 +33,7 @@ const TeamCard = () => {
     <>
       <div className="mt-[5rem] w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem] items-center">
         {team.map((item, index) => (
-          <div className="flex flex-col gap-4 items-center">
+          <div className="flex flex-col gap-4 items-center" key={index}>
             <Image
               src={item.img}
               alt="team"
